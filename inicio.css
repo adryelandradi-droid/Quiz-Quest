@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('img/QuizFundo1.png');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 255px;
+    display: block;
+}
+.botao {
+    height: 50px;
+    width: 600px;
+    border-radius: 11px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titulo {
+    width: 360px;
+    max-width: 100%;
+    transition: filter 0.3s ease, transform 0.3s ease;
+    filter: brightness(1);
+    cursor: default;
+  }
+  .play {
+    width: 160px;
+    height: 90px;
+    max-width: 90%;
+    margin: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease, filter 0.2s ease;
+    background-color: transparent;
+    background-image: url('botao.png'); 
+    background-size: cover;
+    background-position: center;
+    border: none;
+    filter: brightness(1); 
+  }
+  
+  .play:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+  }
+  
+  
